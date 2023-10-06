@@ -8,12 +8,16 @@ class StateInComp extends Component{
             userName:'Guest'
         }
     }
+    changeUserName(){
+        this.setState({userName:'Admin'})
+    }
     render()
     {
         return(
             <>
             <h1>State in Class Component</h1>
             <h1>user name:{this.state.userName}</h1>
+            <button onClick={this.changeUserName.bind(this)}> Change User</button>
             </>
         )
     }
