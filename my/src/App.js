@@ -1,8 +1,8 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
-
-import Webpage from './Component/Webpage';
-
+import 'bootstrap/dist/css/bootstrap.min.css'
+// import Webpage from './Component/Webpage';
+import Website1 from './Component/Assignment1/Website1';
 
 function App() {
   
@@ -24,7 +24,10 @@ function App() {
         //</a>
       //</header>
    // </div>
-   <Webpage/>
+   <div  className='App'>
+       <Website1/>
+  </div>
+   
   
    
   );
