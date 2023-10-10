@@ -4,7 +4,7 @@ import RightHand from './RightHand'
 function MainScreen() {
   return (
     <div>
-        <div style={{ color:"red"}}>
+        <div style={{ color:"red",  width:"30%"}}>
       <LeftHand/>
       </div>
       <div>
