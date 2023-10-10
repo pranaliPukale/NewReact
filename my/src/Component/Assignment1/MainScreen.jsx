@@ -5,7 +5,7 @@ function MainScreen() {
   return (
     <div>
         <div style={{ color:"red",  width:"30%"}}>
-      <LeftHand/>
+      {/*<LeftHand/>*/}
       </div>
       <div>
         <RightHand/>

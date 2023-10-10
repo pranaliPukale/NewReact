@@ -1,6 +1,8 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react'
 import MainScreen from './MainScreen'
+import { BrowserRouter as Router, Routes , Route } from 'react-router-dom';
+import LeftHand from './LeftHand';
 
 function Website1() {
   return (
@@ -25,7 +27,15 @@ function Website1() {
           <a class="nav-link" href="#">Javascript</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">React</a>
+         
+          <Router>
+            <Routes>
+              <Route  exact path='/LeftHand' element={<LeftHand/>}>
+            
+              </Route>
+            </Routes>
+            </Router>  
+            
         </li>
         
         

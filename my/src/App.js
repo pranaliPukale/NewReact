@@ -3,6 +3,8 @@ import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css'
 // import Webpage from './Component/Webpage';
 import Website1 from './Component/Assignment1/Website1';
+import EventFuction from './Component/EventFuction';
+import Webpage from './Component/Webpage';
 
 function App() {
   
