@@ -1,5 +1,5 @@
 import React from 'react'
-import { json } from 'react-router-dom';
+
  const CompComunication = (props) => {
     console.log(props);
     console.log("Hello");

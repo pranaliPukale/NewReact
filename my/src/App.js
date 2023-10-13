@@ -7,6 +7,7 @@ import EventFuction from './Component/EventFuction';
 import Webpage from './Component/Webpage'; 
 import UseEffectHook from './Component/UseEffectHook';
 import ParentComp from './Component/ComponentCommunication/ParentComp';
+import ParentCompFunction from './Component/ComponentCommunication/ParentCompFunction';
 
 function App() {
   
@@ -29,7 +30,7 @@ function App() {
       //</header>
    // </div>
    <div  className='App'>
-      <ParentComp/>
+      <ParentCompFunction/>
   </div>
    
   

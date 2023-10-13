@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 import ChildComp from './ChildComp'
 
 class ParentComp extends React.Component{
