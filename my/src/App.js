@@ -8,6 +8,7 @@ import Webpage from './Component/Webpage';
 import UseEffectHook from './Component/UseEffectHook';
 import ParentComp from './Component/ComponentCommunication/ParentComp';
 import ParentCompFunction from './Component/ComponentCommunication/ParentCompFunction';
+import UseMemoParentComp from './Component/UseMemoHook.jsx/UseMemoParentComp';
 
 function App() {
   
@@ -30,7 +31,7 @@ function App() {
       //</header>
    // </div>
    <div  className='App'>
-      <ParentCompFunction/>
+      <UseMemoParentComp/>
   </div>
    
   
