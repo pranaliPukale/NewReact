@@ -9,6 +9,7 @@ import UseEffectHook from './Component/UseEffectHook';
 import ParentComp from './Component/ComponentCommunication/ParentComp';
 import ParentCompFunction from './Component/ComponentCommunication/ParentCompFunction';
 import UseMemoParentComp from './Component/UseMemoHook.jsx/UseMemoParentComp';
+import Form1 from './Component/FormHandling/Form1';
 
 function App() {
   
@@ -31,7 +32,7 @@ function App() {
       //</header>
    // </div>
    <div  className='App'>
-      <UseMemoParentComp/>
+      <Form1/>
   </div>
    
   
